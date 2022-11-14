@@ -27,6 +27,7 @@ class StreamCreate extends React.Component {
     };
 
     onSubmit = (formValues) => {
+        console.log(formValues);
         // eslint-disable-next-line react/prop-types
         this.props.createStream(formValues);
     };
